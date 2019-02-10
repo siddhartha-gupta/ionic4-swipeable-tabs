@@ -1,5 +1,12 @@
-import { Directive, ElementRef, Output, EventEmitter, OnInit, Renderer2, OnDestroy } from '@angular/core';
-// import { GestureController } from '@ionic/core/dist/collection/utils/gesture/gesture-controller';
+import {
+    Directive,
+    ElementRef,
+    Output,
+    EventEmitter,
+    OnInit,
+    Renderer2,
+    OnDestroy
+} from '@angular/core';
 import Hammer from 'hammerjs';
 
 @Directive({
