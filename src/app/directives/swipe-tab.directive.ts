@@ -7,7 +7,7 @@ import {
     Renderer2,
     OnDestroy
 } from '@angular/core';
-import Hammer from 'hammerjs';
+import 'hammerjs';
 
 @Directive({
     selector: '[appSwipetab]',
@@ -20,7 +20,7 @@ export class SwipeTabDirective implements OnInit, OnDestroy {
     private tabCount = 0;
     private swipeCoords: [number, number];
     private swipeDuration: number;
-    private browserSwipeGesture;
+    private browserSwipeGesture: HammerManager;
     private touchListenersFns = [];
     tabNames: String[] = [];
 
